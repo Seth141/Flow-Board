@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const openai = new OpenAI({
-    apiKey: "/*Your API key here*/"
+    apiKey: "/*Your API Key Here*/"
 });
 
 const port = 3080;
